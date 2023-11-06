@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Código Python</title>
+</head>
+<body>
+    <h1>Código Python</h1>
+    <pre>
+        <code>
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, request
@@ -23,3 +32,7 @@ def processar_pesquisa():
 
 if __name__ == '__main__':
     app.run(debug=True)
+        </code>
+    </pre>
+</body>
+</html>
